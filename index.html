@@ -1,11 +1,345 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="./public/css/style.css">
 </head>
+
 <body>
-    <h1>Hello World!</h1>
+
+    <!-- About -->
+
+        <div class="profile">
+          <div class="container">
+            <h1>About Me</h1>
+            <div class="flex">
+              <div class="flex-item" id="avatar">
+                <div class="avatar-container">
+                  <img class="profile-img" alt="Remy Sharp" src="./public/img/profile.jpeg" />
+                </div>
+              </div>
+              <div class="flex-item" id="description">
+                <div class="card">
+                  <p>
+                    I consider myself a responsible, funny, and reckless person. Being this
+                    last quality extremely important when it comes to programming. I am
+                    really interested in videogames, metaverse, and the crypto world,
+                    including mining. I believe every workspace should have partnership
+                    and respect. I have the capacity to learn and understand quickly to
+                    overcome possible adversities.
+                  </p>
+                </div>
+              </div>
+              <div class="flex-item" id="info">
+                <div class="list" id="info-list">
+                  <ul>
+                    <li><strong>Born Date:</strong> 09/22/1997 | Age: 25</li>
+                    <li><strong>Location:</strong> Buenos Aires, Argentina</li>
+                    <li><strong>Email:</strong> leocapone@hotmail.com</li>
+                    <li><strong>Phone:</strong> +5491155883168</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       <!-- Experience -->
+        <div class="container">
+            <h1> Experience </h1>
+            <div class="row">
+              <!-- Qonico -->
+              <div class="col-md-6 col-sm-12">
+                <div class="work-md">
+                  <h2>Qonico</h2>
+                  <p>Junior Developer</p>
+                  <p>04/2023 | Present </p>
+                  <p>Astro - Solid.js - React.js - TailwindCss - Auth0 - Prisma - Strapi - SEO - JSON -
+                    XML - Graphq - Nest.js - Sequelize</p>
+                </div>
+              </div>
+        
+                 <!-- Coderhouse -->
+              <div class="col-md-6 col-sm-12">
+                <div class="work-md">
+                  <h2>Coderhouse</h2>
+                  <p>Instructor</p>
+                  <p>03/2023 | 12/2023</p>
+                  <p>ECMAS6 - Webstocket - Promises - MongoDB - Cookies - Session - JWT - Testing
+                    - Security - Nest - React - Payment.
+                  </p>
+                </div>
+              </div>
+            </div>
+        
+            <div class="row">
+                <!-- Argentina School -->
+              <div class="col-md-6 col-sm-12">
+                <div class="work-md">
+                  <h2>Argentina School</h2>
+                  <p>Teacher</p>
+                  <p>09/2022 | 02/2023</p>
+                  <p>Scratch - PSeint - Block Coding - Databases - HTML - CSS - JS - Terminal - Git</p>
+                </div>
+              </div>
+        
+                 <!-- CAT Technologies -->
+              <div class="col-md-6 col-sm-12">
+                <div class="work-md">
+                  <h2>CAT Technologies</h2>
+                  <p>Desk Support</p>
+                  <p>05/2022 | 10/2022</p>
+                  <p>Anydesk - TeamViewer - DNS - ToIP - Configuration</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+   <!-- Skills -->
+    <div class="container">
+        <h1> Skills </h1>
+        <div class="item-sm">
+            <div class="card-container">
+                <div class="row">
+
+                    <!-- HTML -->
+                    <div class="col-md-3 col-sm-6">
+                    <div class="avatar-container">
+                      <img class="avatar" alt="html" src="https://cdn.worldvectorlogo.com/logos/html-1.svg">
+                      <div class="rating-container">
+                        <div class="rating">
+                          <span style="color: #ffc107;">★★★★★</span>
+                        </div>
+                        <div class="label">
+                          Excellent
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                
+                    <!-- CSS -->
+                    <div class="col-md-3 col-sm-6">
+                    <div class="avatar-container">
+                      <img class="avatar" alt="css" src="https://cdn.worldvectorlogo.com/logos/css-3.svg">
+                      <div class="rating-container">
+                        <div class="rating">
+                          <span style="color: #ffc107;">★★★★★</span>
+                        </div>
+                        <div class="label">
+                          Excellent
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                
+                    <!-- Javascript -->
+                    <div class="col-md-3 col-sm-6">
+                    <div class="avatar-container">
+                      <img class="avatar" alt="javascript" src="https://cdn.worldvectorlogo.com/logos/javascript-1.svg">
+                      <div class="rating-container">
+                        <div class="rating">
+                          <span style="color: #ffc107;">★★★★★</span>
+                        </div>
+                        <div class="label">
+                          Excellent
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+
+                    <!-- Node.js -->
+                    <div class="col-md-3 col-sm-6">
+                    <div class="avatar-container">
+                      <img class="avatar" alt="nodejs" src="https://cdn.worldvectorlogo.com/logos/nodejs-3.svg">
+                      <div class="rating-container">
+                        <div class="rating">
+                          <span style="color: #ffc107;">★★★★</span>
+                        </div>
+                        <div class="label">
+                          Very Good
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+
+                    <!-- Java -->
+                    <div class="col-md-3 col-sm-6">
+                    <div class="avatar-container">
+                      <img class="avatar" alt="HTML" src="https://cdn.worldvectorlogo.com/logos/java-4.svg">
+                      <div class="rating-container">
+                        <div class="rating">
+                          <span style="color: #ffc107;">★★★★</span>
+                        </div>
+                        <div class="label">
+                        Very Good
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+
+                    <!-- Git -->
+                    <div class="col-md-3 col-sm-6">
+                   <div class="avatar-container">
+                     <img class="avatar" alt="HTML" src="https://cdn.worldvectorlogo.com/logos/git-icon.svg">
+                     <div class="rating-container">
+                       <div class="rating">
+                         <span style="color: #ffc107;">★★★★</span>
+                       </div>
+                       <div class="label">
+                           Very Good
+                       </div>
+                     </div>
+                   </div>
+                     </div>
+
+                    <!-- MySQL -->
+                    <div class="col-md-3 col-sm-6">
+                   <div class="avatar-container">
+                     <img class="avatar" alt="mysql" src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg">
+                     <div class="rating-container">
+                       <div class="rating">
+                         <span style="color: #ffc107;">★★★★</span>
+                       </div>
+                       <div class="label">
+                         Very Good
+                       </div>
+                     </div>
+                   </div>
+                     </div>
+
+                    <!-- MongoDB -->
+                    <div class="col-md-3 col-sm-6">
+                <div class="avatar-container">
+                  <img class="avatar" alt="mongodb" src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-2.svg">
+                  <div class="rating-container">
+                    <div class="rating">
+                      <span style="color: #ffc107;">★★★★</span>
+                    </div>
+                    <div class="label">
+                      Very Good
+                    </div>
+                  </div>
+                </div>
+                    </div>
+
+                    <!-- Springboot -->
+                    <div class="col-md-3 col-sm-6">
+                <div class="avatar-container">
+                  <img class="avatar" alt="springboot" src="https://cdn.worldvectorlogo.com/logos/spring-3.svg">
+                  <div class="rating-container">
+                    <div class="rating">
+                      <span style="color: #ffc107;">★★★</span>
+                    </div>
+                    <div class="label">
+                        Good
+                    </div>
+                  </div>
+                </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+           </div>
+    </div>
+              
+    <!-- Courses -->      
+   <div class="container">
+    <h1> Courses </h1>
+    <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <!-- Software Engineer -->
+          <div class="item-md">
+            <img src="./public/img/uai.png" alt="University Logo">
+            <h2>Software Engineer</h2>
+            <p>Universidad Abierta Interamericana</p>
+            <p>2023 / Present</p>
+            <p>In progress</p>
+            <p>Description: University Degree</p>
+          </div>
+        </div>
+  
+        <div class="col-md-6 col-sm-12">
+          <!-- React.js -->
+          <div class="item-md">
+            <img src="./public/img/coderhouse.jpeg" alt="Coderhouse Logo">
+            <h2>React.js</h2>
+            <p>Coderhouse</p>
+            <p>2022</p>
+            <p>Duration: 6 months</p>
+            <p>Description: ECMA6, DOM, JSX, Transpiling, Components, Promises, Async, MAP, API, Routing, Events, Context, Rendering, Firebase</p>
+            <p><a href="https://www.coderhouse.com/certificados/6308bd696079c90019e38466" target="_blank">Certificate</a></p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <!-- Java Fullstack -->
+          <div class="item-md">
+            <img src="./public/img/egg-education.png" alt="Egg Education Logo">
+            <h2>Java Fullstack Springboot</h2>
+            <p>Egg Education</p>
+            <p>2021 / 2022</p>
+            <p>Duration: 6 months</p>
+            <p>Description: Java, Collections, Classes, Encapsulation, Polymorphism, Overloading, Methods, JDBC, JPA, Spring, Maven</p>
+            <p><a href="./public/files/LeonardoCaponeEgg.pdf" target="_blank">Certificate</a></p>
+          </div>
+        </div>
+  
+        <div class="col-md-6 col-sm-12">
+          <!-- Node.js -->
+          <div class="item-md">
+            <img src="./public/img/digital-house.png" alt="Digital House Logo">
+            <h2>Fullstack Node.js</h2>
+            <p>Digital House</p>
+            <p>2019 / 2020</p>
+            <p>Duration: 6 months</p>
+            <p>Description: HTML, CSS, Javascript, MySQL, Node.js, Express.js, React.js, RestAPI, CRUD, AGILE, Postman</p>
+            <p><a href="./public/files/LeonardoCaponeDH.pdf" target="_blank">Certificate</a></p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <!-- Game Developer -->
+          <div class="item-md">
+            <img src="./public/img/utn.jpeg" alt="UTN Elearning Logo">
+            <h2>Game Developer Unity Basics</h2>
+            <p>UTN Elearning</p>
+            <p>2018</p>
+            <p>Duration: 6 months</p>
+            <p>Description: C++ Basics, Unity Software Basics, Blender Software Basics</p>
+            <p><a href="https://sn3302files.storage.live.com/y4m7K6L50jOiibJQ2E4U0FOaqpszi4VvCqKHepbTIzM_PF9IEEMCOMXJ-V7ipKozIAPvLoc6ZkjEDjTYbF2BL-Mv697EWXd9HHcKZvXfqh5BmTJtLnxmjIDLQ4VH3WK7hg9LaBHRJK1BVaPUyUtGbrEZ0MzrYqWoS7duw9PSh5uA3_-ZRHTk53xdVXpGIePam3l?encodeFailures=1&width=498&height=214"
+                target="_blank">Certificate</a></p>
+          </div>
+        </div>
+  
+        <div class="col-md-6 col-sm-12">
+          <!-- CV -->
+          <div class="item-md">
+            <img src="./public/img/check-world-vector-logo.svg" alt="CV Logo">
+            <h2>Curriculum Vitae</h2>
+            <p>CV</p>
+            <p>12-2023</p>
+            <p>UPDATED</p>
+            <p>Description: More about me</p>
+            <p><a href="./public/files/CV-Leonardo-Capone.pdf" target="_blank">Curriculum Vitae</a></p>
+          </div>
+        </div>
+      </div>
+   </div>
+
+  
+    </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
+
 </html>
