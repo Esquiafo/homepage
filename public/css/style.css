@@ -5,6 +5,26 @@ body {
     padding: 0;
 }
 
+h1, h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+  h1 {
+    font-size: 2.5em;
+}
+
+  h2 {
+    font-size: 2em;
+}
+
+  p {
+    color: #555;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+  
 .avatar-container {
     text-align: center;
     padding-bottom: 7px;
@@ -94,25 +114,4 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 20px;
     padding: 20px;
-}
-
-h2 {
-    color: #333;
-}
-
-p {
-    color: #666;
-    margin: 5px 0;
-}
-
-a {
-    color: #3498db;
-    text-decoration: none;
-    font-weight: bold;
-    display: block;
-    margin-top: 10px;
-}
-
-a:hover {
-    text-decoration: underline;
 }
